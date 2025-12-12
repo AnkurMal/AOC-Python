@@ -1,3 +1,3 @@
-import problems.year2022.day1
+import problems.year2022.day5
 
-problems.year2022.day1.part_2()
+problems.year2022.day5.part_2()
