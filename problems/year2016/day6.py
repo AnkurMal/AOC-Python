@@ -6,11 +6,11 @@ with open("data/year2016/day6.txt") as f:
     data = f.read().splitlines()
 
 
-def part1():
+def part_1():
     print("Part 1:", answer(True))
 
 
-def part2():
+def part_2():
     print("Part 1:", answer())
 
 

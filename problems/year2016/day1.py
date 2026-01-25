@@ -8,7 +8,7 @@ class Direction(Enum):
     WEST = 3
 
 
-def part2():
+def part_2():
     with open("data/year2016/day1.txt") as f:
         spl = f.read().split(", ")
 

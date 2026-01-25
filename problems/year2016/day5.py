@@ -1,7 +1,7 @@
 import hashlib
 
 
-def part1():
+def part_1():
     password, i = "", 0
     while len(password) != 8:
         key = "cxdnnyjw" + str(i)
@@ -14,7 +14,7 @@ def part1():
     print("Part 1:", password)
 
 
-def part2():
+def part_2():
     password, i = [""] * 8, 0
     while any(not j for j in password):
         key = "cxdnnyjw" + str(i)

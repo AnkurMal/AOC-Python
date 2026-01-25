@@ -2,7 +2,7 @@ with open("data/year2016/day2.txt") as f:
     spl = f.read()
 
 
-def part1():
+def part_1():
     keypad = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     x = y = 1
     password = 0
@@ -23,7 +23,7 @@ def part1():
     print("Part 1:", password)
 
 
-def part2():
+def part_2():
     keypad = ["  1  ", " 234 ", "56789", " ABC ", "  D  "]
     x, y = 2, 0
     password = ""

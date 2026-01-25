@@ -5,7 +5,7 @@ with open("data/year2016/day4.txt") as f:
     data = f.read()
 
 
-def part1():
+def part_1():
     sum = 0
     for line in data.splitlines():
         spl = line.split("-")
@@ -23,7 +23,7 @@ def part1():
     print("Part 1:", sum)
 
 
-def part2():
+def part_2():
     for line in data.splitlines():
         spl = line.split("-")
         gen = "".join(

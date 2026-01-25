@@ -2,7 +2,7 @@ with open("data/year2016/day3.txt") as f:
     lines = f.readlines()
 
 
-def part1():
+def part_1():
     counter = 0
     for line in lines:
         nums = [int(i) for i in line.split(" ") if i]
@@ -16,7 +16,7 @@ def part1():
     print("Part 1:", counter)
 
 
-def part2():
+def part_2():
     counter = 0
     for i in range(0, len(lines) - 2, 3):
         n1 = [int(i) for i in lines[i].split(" ") if i]
