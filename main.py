@@ -1,4 +1,4 @@
-from problems.year2017 import day3
+from problems.year2017 import day6
 
 
-day3.part_1()
+day6.part_2()
